@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/sarah7sami/101334588_lab_test1_chat_app#readme",
   "dependencies": {
+    "@socket.io/redis-adapter": "^8.0.1",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "moment": "^2.29.4",
     "redis": "^4.6.4",
