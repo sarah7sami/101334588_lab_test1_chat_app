@@ -220,7 +220,7 @@ hr {
 
 /* Set a style for the submit/register button */
 .registerbtn {
-  background-color: #04AA6D;
+  background-color: #667aff;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -244,8 +244,6 @@ a {
   background-color: #f1f1f1;
   text-align: center;
 }
-
-/* Login Page */
 
 
 
