@@ -1,24 +1,26 @@
-// Description: This file contains the schema for the messages collection in the database.
-
 const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
 
-const MessageSchema = new Schema({
-    from_user: {
+const UserSchema = new mongoose.Schema({
+    username: {
         type: String,
         required: true,
     },
-    room: {
+    firstname: {
         type: String,
         required: true,
     },
-    message: {
+    lastname: {
         type: String,
         required: true,
     },
-    date_sent: {
+    password: {
+        type: String,
+        required: true,
+    },
+    createon: {
         type: Date,
         default: Date.now,
     },
 });
 
+module.exports = mongoose.model("User", UserSchema);
