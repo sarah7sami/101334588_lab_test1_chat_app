@@ -1,0 +1,28 @@
+{
+  "name": "101334588_lab_test1_chat_app",
+  "version": "1.0.0",
+  "description": "chat application using rooms - socket.io, express and mongoose modules - HTML5/CSS/Bootstrap/jQuery to design application/chat screens",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarah7sami/101334588_lab_test1_chat_app.git"
+  },
+  "author": "Sarah Sami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarah7sami/101334588_lab_test1_chat_app/issues"
+  },
+  "homepage": "https://github.com/sarah7sami/101334588_lab_test1_chat_app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "socket.io": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
